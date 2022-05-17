@@ -3,7 +3,8 @@
 
 <h2>First JS</h2>
 
-<button type="button" onclick="document.getElementById'("demo").innerHTML = Date()">
+<button type="button" 
+onclick="document.getElementById('demo').innerHTML = Date()">
 Display Time & Date</button>
 
 <p id="demo"></p>
