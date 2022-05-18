@@ -5,10 +5,15 @@
 <p id="demo">Using Double Quote</p>
 <p id='gengar'>Using Single Quote</p>
 
-<button type="button"
-onclick='document.getElementById("demo").innerHTML = "Testing JS"'>Change Paragraph</button> <!--double quote-->
-<button type='button'
-onclick="document.getElementById('gengar').innerHTML = 'Testing JS'"> with Single Quote</button> <!--single quote-->
+  <button 
+    type="button"
+    onclick='document.getElementById("demo").innerHTML = "Testing JS"'>Change Paragraph
+  </button> <!--double quote-->
+
+  <button 
+    type='button'
+    onclick="document.getElementById('gengar').innerHTML = 'Testing JS'"> with Single Quote
+  </button> <!--single quote-->
 
 </body>
 </html>
